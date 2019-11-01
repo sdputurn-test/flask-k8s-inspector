@@ -6,6 +6,7 @@ pipeline {
                 sh 'python --version'
                 sh "pwd "
                 sh "touch abc.txt"
+                sh "ls -ltra"
             }
         }
     }
